@@ -9,9 +9,9 @@ created_date =input("Введите дату создания заметки (д
 issue_date =input("Введите дату окончания заметки (дд-мм-гггг):")
 #вывод данных
 print("Ваше имя:", username)
-print("Заголовок 1:", title1)
-print("Заголовок 2:", title2)
-print("Заголовок 3:", title3)
+print("Заголовок 1: ", all_titles[0],
+      "Заголовок 2: " , all_titles[1],
+      "Заголовок 3: ", all_titles[2])
 print("Описание заметки:",content)
 print("Статус:", status)
 print("Дата создания заметки:", created_date[0:5])
